@@ -6,9 +6,6 @@ from setuptools import setup
 with open('README.rst') as readme_file:
     readme = readme_file.read()
 
-with open('HISTORY.rst') as history_file:
-    history = history_file.read()
-
 requirements = [
     'marvinbot'
     # TODO: put package requirements here
@@ -62,7 +59,7 @@ setup(
         'Programming Language :: Python :: 3.5',
     ],
     test_suite='tests',
-    tests_require=test_requirements
+    tests_require=test_requirements,
     dependency_links=[
         'git+ssh://git@github.com:BotDevGroup/marvin.git#egg=marvinbot',
     ],
