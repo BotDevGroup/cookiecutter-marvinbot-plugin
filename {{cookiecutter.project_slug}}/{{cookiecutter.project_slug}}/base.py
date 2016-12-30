@@ -7,7 +7,7 @@ log = logging.getLogger(__name__)
 
 class {{ cookiecutter.plugin_name }}(Plugin):
     def __init__(self):
-        super(EventsPlugin, self).__init__('{{ cookiecutter.plugin_short_name }}')
+        super({{ cookiecutter.plugin_name }}, self).__init__('{{ cookiecutter.plugin_short_name }}')
 
     def get_default_config(self):
         return {
