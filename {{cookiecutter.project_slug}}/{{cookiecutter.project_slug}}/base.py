@@ -23,3 +23,6 @@ class {{ cookiecutter.plugin_name }}(Plugin):
 
     def setup_schedules(self, adapter):
         pass
+
+    def provide_blueprint(self, config):
+        pass
